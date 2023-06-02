@@ -1,0 +1,33 @@
+2023-05-19 18:46:09,555 INFO    MainThread:186 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_setup.py:_flush():76] Configure stats pid to 186
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_setup.py:_flush():76] Loading settings from /root/autodl-tmp/CAC_FSC147/wandb/settings
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'train.py'}
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_init.py:_log_setup():507] Logging user logs to /root/autodl-tmp/CAC_FSC147/wandb/run-20230519_184609-a0d0d3x7/logs/debug.log
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_init.py:_log_setup():508] Logging internal logs to /root/autodl-tmp/CAC_FSC147/wandb/run-20230519_184609-a0d0d3x7/logs/debug-internal.log
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_init.py:init():547] calling init triggers
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'tag': 'fsc-baseline', 'device': '0', 'no_wandb': False, 'data_dir': './datasets/FSC', 'log_param': 100.0, 'crop_size': 384, 'downsample_ratio': 16, 'dcsize': 8, 'lr': 4e-05, 'batch_size': 8, 'num_workers': 4, 'weight_decay': 1e-05, 'max_epoch': 1000, 'val_epoch': 10, 'val_start': 100, 'scheduler': 'step', 'step': 400, 'gamma': 0.5, 't_max': 200, 'eta_min': 4e-06, 'save_dir': './checkpoint', 'save_all': False, 'max_model_num': 1, 'resume': ''}
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_init.py:init():596] starting backend
+2023-05-19 18:46:09,556 INFO    MainThread:186 [wandb_init.py:init():600] setting up manager
+2023-05-19 18:46:09,559 INFO    MainThread:186 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-19 18:46:09,561 INFO    MainThread:186 [wandb_init.py:init():606] backend started and connected
+2023-05-19 18:46:09,563 INFO    MainThread:186 [wandb_init.py:init():700] updated telemetry
+2023-05-19 18:46:09,564 INFO    MainThread:186 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-19 18:46:10,414 INFO    MainThread:186 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-19 18:46:11,602 INFO    MainThread:186 [wandb_run.py:_on_init():2186] got version response 
+2023-05-19 18:46:11,602 INFO    MainThread:186 [wandb_init.py:init():787] starting run threads in backend
+2023-05-19 18:46:12,554 INFO    MainThread:186 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-19 18:46:12,554 INFO    MainThread:186 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-05-19 18:46:12,554 INFO    MainThread:186 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-19 18:46:12,554 INFO    MainThread:186 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-19 18:46:12,556 INFO    MainThread:186 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-20 18:32:09,775 INFO    MainThread:186 [wandb_run.py:_finish():1893] finishing run nehc0/FSC/a0d0d3x7
+2023-05-20 18:32:09,775 INFO    MainThread:186 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 0
+2023-05-20 18:32:09,776 INFO    MainThread:186 [wandb_run.py:_restore():2110] restore
+2023-05-20 18:32:09,776 INFO    MainThread:186 [wandb_run.py:_restore():2116] restore done
+2023-05-20 18:32:16,440 INFO    MainThread:186 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-20 18:32:16,443 INFO    MainThread:186 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-20 18:32:16,453 INFO    MainThread:186 [wandb_run.py:_footer_sync_info():3428] logging synced files
